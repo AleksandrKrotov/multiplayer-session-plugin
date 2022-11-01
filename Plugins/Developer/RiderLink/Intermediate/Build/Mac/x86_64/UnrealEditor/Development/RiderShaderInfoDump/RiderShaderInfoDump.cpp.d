@@ -1,7 +1,7 @@
-/Users/alexandrkrotov/dev/UE/MultiplayerCourse/MenuSystem/Plugins/Developer/RiderLink/Intermediate/Build/Mac/x86_64/UnrealEditor/Development/RiderShaderInfoDump/RiderShaderInfoDump.cpp.o: \
-  /Users/alexandrkrotov/dev/UE/MultiplayerCourse/MenuSystem/Plugins/Developer/RiderLink/Source/RiderShaderInfoDump/RiderShaderInfoDump.cpp \
-  /Users/alexandrkrotov/dev/UE/MultiplayerCourse/MenuSystem/Plugins/Developer/RiderLink/Intermediate/Build/Mac/x86_64/UnrealEditor/Development/RiderShaderInfoDump/Definitions.h \
-  /Users/alexandrkrotov/dev/UE/MultiplayerCourse/MenuSystem/Plugins/Developer/RiderLink/Source/RiderShaderInfoDump/RiderShaderInfoDump.h \
+/Users/alexandrkrotov/dev/UE/MultiplayerCourse/multiplayer-session-plugin/Plugins/Developer/RiderLink/Intermediate/Build/Mac/x86_64/UnrealEditor/Development/RiderShaderInfoDump/RiderShaderInfoDump.cpp.o: \
+  /Users/alexandrkrotov/dev/UE/MultiplayerCourse/multiplayer-session-plugin/Plugins/Developer/RiderLink/Source/RiderShaderInfoDump/RiderShaderInfoDump.cpp \
+  /Users/alexandrkrotov/dev/UE/MultiplayerCourse/multiplayer-session-plugin/Plugins/Developer/RiderLink/Intermediate/Build/Mac/x86_64/UnrealEditor/Development/RiderShaderInfoDump/Definitions.h \
+  /Users/alexandrkrotov/dev/UE/MultiplayerCourse/multiplayer-session-plugin/Plugins/Developer/RiderLink/Source/RiderShaderInfoDump/RiderShaderInfoDump.h \
   /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Core/Public/Modules/ModuleInterface.h \
   /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Core/Public/CoreTypes.h \
   /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Core/Public/HAL/Platform.h \
