@@ -10,7 +10,6 @@ void ALobbyGameMode::PostLogin(APlayerController* NewPlayer)
 {
 	Super::PostLogin(NewPlayer);
 
-
 	if (GameState)
 	{
 		int32 NumberOfPlayers = GameState.Get()->PlayerArray.Num();
@@ -35,7 +34,6 @@ void ALobbyGameMode::PostLogin(APlayerController* NewPlayer)
 					FString::Printf(TEXT("%s has joined the game!"), *PlayerName)
 					);
 			}
-
 		}
 	}
 }

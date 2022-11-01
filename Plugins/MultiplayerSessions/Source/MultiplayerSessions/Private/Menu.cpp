@@ -7,8 +7,10 @@
 #include "OnlineSessionSettings.h"
 #include "OnlineSubsystem.h"
 
-void UMenu::MenuSetup(int32 InNumPublicConnections, FString InMatchType )
+void UMenu::MenuSetup(int32 InNumPublicConnections, FString InMatchType, FString InLobbyPath)
 {
+
+	PathToLobby = FString::Printf(TEXT("%s?listen"), *InLobbyPath);
 	NumPublicConnections = InNumPublicConnections;
 	MatchType = InMatchType;
 	AddToViewport();
@@ -81,7 +83,7 @@ void UMenu::OnCreateSession(bool bWasSuccessful)
 		}
 		if (UWorld* World = GetWorld())
 		{
-			World->ServerTravel("/Game/ThirdPerson/Maps/Lobby?listen");
+			World->ServerTravel(PathToLobby);
 		}
 	}
 	else
